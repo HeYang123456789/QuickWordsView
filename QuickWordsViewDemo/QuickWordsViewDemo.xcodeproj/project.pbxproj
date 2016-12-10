@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BAC91E31DFBF9A2009F33CB /* QuickWordsModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC91E21DFBF9A2009F33CB /* QuickWordsModels.m */; };
+		3BAC91E61DFBFFAD009F33CB /* QuickWordsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC91E51DFBFFAD009F33CB /* QuickWordsTableView.m */; };
+		3BAC91E91DFC06F8009F33CB /* QuickWordsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC91E81DFC06F8009F33CB /* QuickWordsCell.m */; };
+		3BAC91EC1DFC24E0009F33CB /* QuickWordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC91EB1DFC24E0009F33CB /* QuickWordInputView.m */; };
+		3BAC91F01DFC2B9C009F33CB /* UIWindow+QuickWordsExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC91EF1DFC2B9C009F33CB /* UIWindow+QuickWordsExtra.m */; };
+		3BF0FE181DFAD64100892FB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0FE171DFAD64100892FB1 /* main.m */; };
+		3BF0FE1B1DFAD64100892FB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0FE1A1DFAD64100892FB1 /* AppDelegate.m */; };
+		3BF0FE1E1DFAD64100892FB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0FE1D1DFAD64100892FB1 /* ViewController.m */; };
+		3BF0FE211DFAD64100892FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF0FE1F1DFAD64100892FB1 /* Main.storyboard */; };
+		3BF0FE231DFAD64100892FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF0FE221DFAD64100892FB1 /* Assets.xcassets */; };
+		3BF0FE261DFAD64100892FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF0FE241DFAD64100892FB1 /* LaunchScreen.storyboard */; };
+		3BF0FE2F1DFB04E100892FB1 /* QuickWordsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0FE2E1DFB04E100892FB1 /* QuickWordsView.m */; };
+		3BF2EABC1DFC5FEB00737686 /* QuickWordTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2EABB1DFC5FEB00737686 /* QuickWordTextView.m */; };
+		7546C4082B36E2DE22D1AC51 /* libPods-QuickWordsViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791456564AD0E97081CD7C96 /* libPods-QuickWordsViewDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BAC91E11DFBF9A2009F33CB /* QuickWordsModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickWordsModels.h; sourceTree = "<group>"; };
+		3BAC91E21DFBF9A2009F33CB /* QuickWordsModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickWordsModels.m; sourceTree = "<group>"; };
+		3BAC91E41DFBFFAD009F33CB /* QuickWordsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickWordsTableView.h; sourceTree = "<group>"; };
+		3BAC91E51DFBFFAD009F33CB /* QuickWordsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickWordsTableView.m; sourceTree = "<group>"; };
+		3BAC91E71DFC06F8009F33CB /* QuickWordsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickWordsCell.h; sourceTree = "<group>"; };
+		3BAC91E81DFC06F8009F33CB /* QuickWordsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickWordsCell.m; sourceTree = "<group>"; };
+		3BAC91EA1DFC24E0009F33CB /* QuickWordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickWordInputView.h; sourceTree = "<group>"; };
+		3BAC91EB1DFC24E0009F33CB /* QuickWordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickWordInputView.m; sourceTree = "<group>"; };
+		3BAC91ED1DFC2A51009F33CB /* QuickWordUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickWordUtilities.h; sourceTree = "<group>"; };
+		3BAC91EE1DFC2B9C009F33CB /* UIWindow+QuickWordsExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+QuickWordsExtra.h"; sourceTree = "<group>"; };
+		3BAC91EF1DFC2B9C009F33CB /* UIWindow+QuickWordsExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+QuickWordsExtra.m"; sourceTree = "<group>"; };
+		3BF0FE131DFAD64100892FB1 /* QuickWordsViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickWordsViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF0FE171DFAD64100892FB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BF0FE191DFAD64100892FB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BF0FE1A1DFAD64100892FB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BF0FE1C1DFAD64100892FB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BF0FE1D1DFAD64100892FB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BF0FE201DFAD64100892FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BF0FE221DFAD64100892FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BF0FE251DFAD64100892FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BF0FE271DFAD64100892FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF0FE2D1DFB04E100892FB1 /* QuickWordsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickWordsView.h; sourceTree = "<group>"; };
+		3BF0FE2E1DFB04E100892FB1 /* QuickWordsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickWordsView.m; sourceTree = "<group>"; };
+		3BF2EABA1DFC5FEB00737686 /* QuickWordTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickWordTextView.h; sourceTree = "<group>"; };
+		3BF2EABB1DFC5FEB00737686 /* QuickWordTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickWordTextView.m; sourceTree = "<group>"; };
+		75F8A08948AD2E18EF2D3837 /* Pods-QuickWordsViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickWordsViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickWordsViewDemo/Pods-QuickWordsViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		791456564AD0E97081CD7C96 /* libPods-QuickWordsViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickWordsViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F847C4BEFA6B3569AA80E5 /* Pods-QuickWordsViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickWordsViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickWordsViewDemo/Pods-QuickWordsViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BF0FE101DFAD64100892FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7546C4082B36E2DE22D1AC51 /* libPods-QuickWordsViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29A2D2288AA12EF52F491846 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5F847C4BEFA6B3569AA80E5 /* Pods-QuickWordsViewDemo.debug.xcconfig */,
+				75F8A08948AD2E18EF2D3837 /* Pods-QuickWordsViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3BF0FE0A1DFAD64100892FB1 = {
+			isa = PBXGroup;
+			children = (
+				3BF0FE151DFAD64100892FB1 /* QuickWordsViewDemo */,
+				3BF0FE141DFAD64100892FB1 /* Products */,
+				29A2D2288AA12EF52F491846 /* Pods */,
+				DAB4691064DE9E2E55F76447 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BF0FE141DFAD64100892FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF0FE131DFAD64100892FB1 /* QuickWordsViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BF0FE151DFAD64100892FB1 /* QuickWordsViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3BF0FE191DFAD64100892FB1 /* AppDelegate.h */,
+				3BF0FE1A1DFAD64100892FB1 /* AppDelegate.m */,
+				3BF0FE1C1DFAD64100892FB1 /* ViewController.h */,
+				3BF0FE1D1DFAD64100892FB1 /* ViewController.m */,
+				3BF0FE2D1DFB04E100892FB1 /* QuickWordsView.h */,
+				3BF0FE2E1DFB04E100892FB1 /* QuickWordsView.m */,
+				3BAC91E11DFBF9A2009F33CB /* QuickWordsModels.h */,
+				3BAC91E21DFBF9A2009F33CB /* QuickWordsModels.m */,
+				3BAC91E41DFBFFAD009F33CB /* QuickWordsTableView.h */,
+				3BAC91E51DFBFFAD009F33CB /* QuickWordsTableView.m */,
+				3BAC91E71DFC06F8009F33CB /* QuickWordsCell.h */,
+				3BAC91E81DFC06F8009F33CB /* QuickWordsCell.m */,
+				3BAC91EA1DFC24E0009F33CB /* QuickWordInputView.h */,
+				3BAC91EB1DFC24E0009F33CB /* QuickWordInputView.m */,
+				3BF2EABA1DFC5FEB00737686 /* QuickWordTextView.h */,
+				3BF2EABB1DFC5FEB00737686 /* QuickWordTextView.m */,
+				3BAC91ED1DFC2A51009F33CB /* QuickWordUtilities.h */,
+				3BAC91EE1DFC2B9C009F33CB /* UIWindow+QuickWordsExtra.h */,
+				3BAC91EF1DFC2B9C009F33CB /* UIWindow+QuickWordsExtra.m */,
+				3BF0FE1F1DFAD64100892FB1 /* Main.storyboard */,
+				3BF0FE221DFAD64100892FB1 /* Assets.xcassets */,
+				3BF0FE241DFAD64100892FB1 /* LaunchScreen.storyboard */,
+				3BF0FE271DFAD64100892FB1 /* Info.plist */,
+				3BF0FE161DFAD64100892FB1 /* Supporting Files */,
+			);
+			path = QuickWordsViewDemo;
+			sourceTree = "<group>";
+		};
+		3BF0FE161DFAD64100892FB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BF0FE171DFAD64100892FB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAB4691064DE9E2E55F76447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				791456564AD0E97081CD7C96 /* libPods-QuickWordsViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BF0FE121DFAD64100892FB1 /* QuickWordsViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF0FE2A1DFAD64100892FB1 /* Build configuration list for PBXNativeTarget "QuickWordsViewDemo" */;
+			buildPhases = (
+				8EEF941177250B9B945512FE /* [CP] Check Pods Manifest.lock */,
+				3BF0FE0F1DFAD64100892FB1 /* Sources */,
+				3BF0FE101DFAD64100892FB1 /* Frameworks */,
+				3BF0FE111DFAD64100892FB1 /* Resources */,
+				27445DE68649E5A49E8819AB /* [CP] Embed Pods Frameworks */,
+				71D10687DBE6AEC6D9F59F07 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickWordsViewDemo;
+			productName = QuickWordsViewDemo;
+			productReference = 3BF0FE131DFAD64100892FB1 /* QuickWordsViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BF0FE0B1DFAD64100892FB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = HEYANG;
+				TargetAttributes = {
+					3BF0FE121DFAD64100892FB1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TYUUEE49VN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BF0FE0E1DFAD64100892FB1 /* Build configuration list for PBXProject "QuickWordsViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BF0FE0A1DFAD64100892FB1;
+			productRefGroup = 3BF0FE141DFAD64100892FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BF0FE121DFAD64100892FB1 /* QuickWordsViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BF0FE111DFAD64100892FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF0FE261DFAD64100892FB1 /* LaunchScreen.storyboard in Resources */,
+				3BF0FE231DFAD64100892FB1 /* Assets.xcassets in Resources */,
+				3BF0FE211DFAD64100892FB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27445DE68649E5A49E8819AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickWordsViewDemo/Pods-QuickWordsViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D10687DBE6AEC6D9F59F07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickWordsViewDemo/Pods-QuickWordsViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EEF941177250B9B945512FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BF0FE0F1DFAD64100892FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF0FE1E1DFAD64100892FB1 /* ViewController.m in Sources */,
+				3BF2EABC1DFC5FEB00737686 /* QuickWordTextView.m in Sources */,
+				3BAC91E91DFC06F8009F33CB /* QuickWordsCell.m in Sources */,
+				3BAC91E61DFBFFAD009F33CB /* QuickWordsTableView.m in Sources */,
+				3BAC91EC1DFC24E0009F33CB /* QuickWordInputView.m in Sources */,
+				3BF0FE1B1DFAD64100892FB1 /* AppDelegate.m in Sources */,
+				3BF0FE2F1DFB04E100892FB1 /* QuickWordsView.m in Sources */,
+				3BF0FE181DFAD64100892FB1 /* main.m in Sources */,
+				3BAC91F01DFC2B9C009F33CB /* UIWindow+QuickWordsExtra.m in Sources */,
+				3BAC91E31DFBF9A2009F33CB /* QuickWordsModels.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BF0FE1F1DFAD64100892FB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BF0FE201DFAD64100892FB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BF0FE241DFAD64100892FB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BF0FE251DFAD64100892FB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BF0FE281DFAD64100892FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BF0FE291DFAD64100892FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BF0FE2B1DFAD64100892FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F847C4BEFA6B3569AA80E5 /* Pods-QuickWordsViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TYUUEE49VN;
+				INFOPLIST_FILE = QuickWordsViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = heyang.com.QuickWordsViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BF0FE2C1DFAD64100892FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F8A08948AD2E18EF2D3837 /* Pods-QuickWordsViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TYUUEE49VN;
+				INFOPLIST_FILE = QuickWordsViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = heyang.com.QuickWordsViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BF0FE0E1DFAD64100892FB1 /* Build configuration list for PBXProject "QuickWordsViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF0FE281DFAD64100892FB1 /* Debug */,
+				3BF0FE291DFAD64100892FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF0FE2A1DFAD64100892FB1 /* Build configuration list for PBXNativeTarget "QuickWordsViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF0FE2B1DFAD64100892FB1 /* Debug */,
+				3BF0FE2C1DFAD64100892FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BF0FE0B1DFAD64100892FB1 /* Project object */;
+}
